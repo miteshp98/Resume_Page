@@ -98,7 +98,7 @@ h1 span {
 }
 
 .image {
-  background-image: url("/Assets/Images/home_backgroound_image.jpg");
+  background-image: url("home_backgroound_image.jpg");
   height: 600px;
   width: 600px;
   background-size: cover;
