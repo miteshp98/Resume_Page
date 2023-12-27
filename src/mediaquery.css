@@ -46,7 +46,7 @@
   }
 
   .image {
-    background-image: url("/Assets/Images/home_backgroound_image.jpg");
+    background-image: url("home_backgroound_image.jpg");
     height: 300px;
     width: 300px;
   }
