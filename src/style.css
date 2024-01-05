@@ -482,7 +482,7 @@ h1 span {
   
 }
 
-.image , .about_container , .service_container , .quote_container{
+.image , .about_container , .service_container , .quote_container, .mywork_container {
   animation: fade-out cubic-bezier(0.65, 0, 0.35, 1);
   animation-timeline: view();
   animation-range: exit;
