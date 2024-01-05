@@ -460,3 +460,35 @@ h1 span {
   letter-spacing: 2px;
   font-size: 0.9rem;
 }
+
+
+/* Animataion Section */
+
+.scroller{
+  height: 10px;
+  width: 100%;
+  background-color: #21889c;
+  position: fixed;
+  z-index: 100;
+  animation: scroller ease-in-out;
+  animation-timeline: scroll();
+  scale: 0 1;
+  transform-origin: left;
+
+}
+
+@keyframes scroller {
+  to{scale: 1 1 ;}
+  
+}
+
+.image , .about_container , .service_container , .quote_container, .mywork_container {
+  animation: fade-out cubic-bezier(0.65, 0, 0.35, 1);
+  animation-timeline: view();
+  animation-range: exit;
+}
+
+@keyframes fade-out {
+  to {opacity: 0;}
+  
+}
